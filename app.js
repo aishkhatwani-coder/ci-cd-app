@@ -4,7 +4,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.status(200).json({ 
    message: 'Yeh galat message hai!',
-    status: 'success'
+   status: 'failed'
   });
 });
 
