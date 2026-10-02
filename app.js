@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.status(200).json({ 
-    message: 'Hello! CI/CD Pipeline successfully executed 🚀',
+   message: 'Yeh galat message hai!',
     status: 'success'
   });
 });
